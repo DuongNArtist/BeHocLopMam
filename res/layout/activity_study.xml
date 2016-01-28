@@ -1,0 +1,244 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnStudyChar"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_0"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_char"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyTableChar"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_0"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_table_char"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyFindChar"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_0"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_find_char"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnStudyNumber"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_1"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_number"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyCount"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_1"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_count"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyPractice"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_1"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_practice"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnStudyColor"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_2"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_color"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyTopCenterBottom"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_2"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_top_center_bottom"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyLeftCenterRight"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_2"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_left_center_right"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnStudyShape"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_3"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_shape"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyRecognize"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_3"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_recognize"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudySameDifferent"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_3"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_same_different"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btnStudyHigherLower"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_higher_lower"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyMoreLess"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_more_less"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnStudyMaxMin"
+                style="@android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_4"
+                android:padding="@dimen/padding_medium"
+                android:text="@string/study_max_min"
+                android:textColor="@color/black_1"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtStudyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_11"
+        android:gravity="center"
+        android:padding="@dimen/padding_small"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black_1"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnStudyReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/button_0"
+        android:contentDescription="@drawable/icon_quit"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/icon_quit" />
+
+</FrameLayout>

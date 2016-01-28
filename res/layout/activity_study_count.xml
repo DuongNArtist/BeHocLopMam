@@ -1,0 +1,198 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/btnCountReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/button_0"
+            android:contentDescription="@drawable/icon_quit"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/icon_quit" />
+
+        <ImageButton
+            android:id="@+id/btnCountSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:contentDescription="@drawable/icon_speaker"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/icon_speaker" />
+
+        <TextView
+            android:id="@+id/txtCountTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/background_03"
+            android:gravity="center"
+            android:padding="@dimen/padding_small"
+            android:text="@string/study_count"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black_1"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrCount"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_11"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnCount00"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_0"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_00"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount01"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_1"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_01"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount02"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_2"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_02"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount03"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_3"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_03"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount04"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_4"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_04"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCount05"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_4"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_05"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount06"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_3"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_06"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount07"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_2"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_07"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount08"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_1"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_08"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCount09"
+            style="@android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.00"
+            android:background="@drawable/button_0"
+            android:padding="@dimen/padding_tiny"
+            android:text="@string/number_09"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9404075236503358/7924797629"
+        app:loadAdOnCreate="true" >
+    </com.google.ads.AdView>
+
+</LinearLayout>

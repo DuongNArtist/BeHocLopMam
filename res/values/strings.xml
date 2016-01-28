@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bé Học Lớp Mầm</string>
+    <string name="game_loading">Đang tải dữ liệu</string>
+    <string name="main_game">Trò chơi</string>
+    <string name="main_study">Vào lớp</string>
+    <string name="game_rado">Rado</string>
+    <string name="game_poke">Poke</string>
+    <string name="char_upper_title">In hoa</string>
+    <string name="char_lower_title">In thường</string>
+    <string name="example_title_left">Ví dụ trái</string>
+    <string name="example_title_right">Ví dụ phải</string>
+    <string name="char_upper_icon">A</string>
+    <string name="char_lower_icon">a</string>
+    <string name="game_over">Game Over</string>
+    <string name="study_top_center_bottom">Trên - Giữa - Dưới</string>
+    <string name="study_left_center_right">Trái - Giữa - Phải</string>
+    <string name="study_higher_lower">Cao - Thấp hơn</string>
+    <string name="study_same_different">Giống - Khác nhau</string>
+    <string name="study_recognize">Nhận biết</string>
+    <string name="study_more_less">Nhiều - Ít hơn</string>
+    <string name="study_char">Học chữ cái</string>
+    <string name="study_table_char">Bảng chữ cái</string>
+    <string name="study_find_char">Tìm chữ cái</string>
+    <string name="study_count">Học đếm</string>
+    <string name="study_max_min">Nhiều - Ít nhất</string>
+    <string name="study_practice">Tập đếm</string>
+    <string name="study_number">Học số</string>
+    <string name="study_color">Học màu</string>
+    <string name="study_shape">Học hình</string>
+    <string name="number_00">0</string>
+    <string name="number_01">1</string>
+    <string name="number_02">2</string>
+    <string name="number_03">3</string>
+    <string name="number_04">4</string>
+    <string name="number_05">5</string>
+    <string name="number_06">6</string>
+    <string name="number_07">7</string>
+    <string name="number_08">8</string>
+    <string name="number_09">9</string>
+    <string name="number_10">10</string>
+
+    <string-array name="color_name">
+        <item>Màu đỏ</item>
+        <item>Màu hồng</item>
+        <item>Màu cam</item>
+        <item>Màu vàng</item>
+        <item>Màu xanh lá</item>
+        <item>Màu xanh lam</item>
+        <item>Màu xanh dương</item>
+        <item>Màu tím</item>
+        <item>Màu xám</item>
+        <item>Màu đen</item>
+    </string-array>
+    <string-array name="char_upper">
+        <item>A</item>
+        <item>Ă</item>
+        <item>Â</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>Đ</item>
+        <item>E</item>
+        <item>Ê</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>Ô</item>
+        <item>Ơ</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>Ư</item>
+        <item>V</item>
+        <item>X</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="char_lower">
+        <item>a</item>
+        <item>ă</item>
+        <item>â</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>đ</item>
+        <item>e</item>
+        <item>ê</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>ô</item>
+        <item>ơ</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>ư</item>
+        <item>v</item>
+        <item>x</item>
+        <item>y</item>
+    </string-array>
+    <string-array name="example_left">
+        <item>Lá</item>
+        <item>Ăn</item>
+        <item>Mây</item>
+        <item>Bé</item>
+        <item>Cá</item>
+        <item>Dế</item>
+        <item>Đu đủ</item>
+        <item>Me</item>
+        <item>Dê</item>
+        <item>Gà</item>
+        <item>Hổ</item>
+        <item>Ví</item>
+        <item>Kệ</item>
+        <item>Lê</item>
+        <item>Mũ</item>
+        <item>Nơ</item>
+        <item>Võ</item>
+        <item>Cô</item>
+        <item>Cờ</item>
+        <item>Phích</item>
+        <item>Quất</item>
+        <item>Rau</item>
+        <item>Sò</item>
+        <item>Tổ</item>
+        <item>Tủ</item>
+        <item>Từ</item>
+        <item>Vở</item>
+        <item>Xu</item>
+        <item>Ly</item>
+    </string-array>
+    <string-array name="example_right">
+        <item>Cà</item>
+        <item>Cắt</item>
+        <item>Cấy</item>
+        <item>Bò</item>
+        <item>Cò</item>
+        <item>Dừa</item>
+        <item>Đò</item>
+        <item>Xe</item>
+        <item>Bê</item>
+        <item>Gỗ</item>
+        <item>Hề</item>
+        <item>Bí</item>
+        <item>Kẻ</item>
+        <item>Lò</item>
+        <item>Me</item>
+        <item>Nụ</item>
+        <item>Cọ</item>
+        <item>Hồ</item>
+        <item>Bơ</item>
+        <item>Phở</item>
+        <item>Quần</item>
+        <item>Rổ</item>
+        <item>Sâu</item>
+        <item>Té</item>
+        <item>Mũ</item>
+        <item>Thư</item>
+        <item>Ve</item>
+        <item>Xe</item>
+        <item>Y tá</item>
+    </string-array>
+
+</resources>
